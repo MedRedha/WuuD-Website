@@ -34,5 +34,7 @@
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Atom Material Theme"
+  "workbench.colorTheme": "Atom Material Theme",
+  "editor.fontSize": 13,
+  "window.zoomLevel": -1
 }
