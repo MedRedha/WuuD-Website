@@ -412,7 +412,7 @@ footer span {
 }
 @media (max-width: 420px) {
   h1 {
-    adding-top: 16px;
+    padding-top: 16px;
   }
   #header {
     margin-bottom: 30px;
