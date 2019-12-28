@@ -200,19 +200,19 @@ a.logo {
 }
 .pintrestIcon {
   background-position: -331px 0px;
-}
+} */
 .tempBy {
   display: block;
-  text-align: right;
+  text-align: center;
   margin-top: 40px;
   font-size: 13px;
   color: #fff;
 }
 #Content h2 {
   display: block;
-  margin: 25px 0 42px;
+  margin: 25px 0;
   padding: 0px;
-  text-align: right;
+  text-align: center;
   font-size: 24px;
   font-weight: 300;
   color: #fff;
