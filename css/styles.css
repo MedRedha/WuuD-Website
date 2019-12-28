@@ -364,9 +364,9 @@ footer span {
   color: #fff;
   border-color: #ffffff;
 }
-.tempBy a:hover {
+/* .tempBy a:hover {
   color: #444;
-}
+} */
 @media (max-width: 998px) {
   body {
     min-width: initial !important;
