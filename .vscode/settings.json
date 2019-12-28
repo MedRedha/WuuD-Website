@@ -40,11 +40,12 @@
   "editor.formatOnPaste": true,
   "eslint.autoFixOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.tslint": true
+    "source.fixAll.tslint": true,
+    "source.fixAll.eslint": true
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Atom Material Theme",
+  "workbench.colorTheme": "Material Theme Ocean",
   "editor.fontSize": 13,
   "window.zoomLevel": -1
 }
