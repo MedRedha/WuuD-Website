@@ -143,6 +143,12 @@ a.logo {
   width: 1170px;
   text-align: center;
 }
+.wrapper2 {
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  width: 1170px;
+  text-align: center;
 }
 #socialIcons {
   display: block;
