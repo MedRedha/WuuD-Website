@@ -159,19 +159,34 @@ a.logo {
   padding: 0px;
   text-align: center;
 }
-#socialIcons ul li {
-  margin-right: 5px;
+/* #socialIcons ul li {
+  margin-center: 5px;
   height: 34px;
   line-height: 34px;
   list-style-type: none;
   display: inline-block;
-}
-#socialIcons ul li a {
+} */
+/* #socialIcons ul li a {
   width: 34px;
   height: 34px;
   display: inline-block;
 }
-.twitterIcon,
+#socialIcons ul li b {
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+}
+#socialIcons ul li c {
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+}
+#socialIcons ul li d {
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+} */
+/* .twitterIcon,
 .facebookIcon,
 .linkedInIcon,
 .pintrestIcon {
