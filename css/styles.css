@@ -141,7 +141,8 @@ a.logo {
   position: relative;
   z-index: 1;
   width: 1170px;
-  text-align: right;
+  text-align: center;
+}
 }
 #socialIcons {
   display: block;
