@@ -296,7 +296,7 @@ a.logo {
 .styled {
   padding: 90px 0 40px;
   display: block;
-  float: right;
+  float: center;
 }
 .styled div {
   display: inline-block;
