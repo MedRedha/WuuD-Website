@@ -1,6 +1,16 @@
 {
   "files.autoSave": "afterDelay",
   "editor.minimap.enabled": false,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#ca5405",
+    "statusBarItem.activeBackground": "#00ffc8",
+    "statusBar.noFolderBackground": "#212121",
+    "statusBar.debuggingBackground": "#ff5e00",
+    "statusBar.foreground": "#ffffff",
+    "titleBar.inactiveForeground": "#383838",
+    "titleBar.activeForeground": "#07ca7f",
+    "statusBarItem.hoverBackground": "#a7085f"
+  },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
