@@ -17,7 +17,8 @@ $location = "success.html";
 # DON'T INCLUDE UNFILTERED USER INPUT IN THE MAIL HEADER!
 $sender = $recipient;
 
-# MAIL BODY 
+# MAIL BODY
+// $body .= "Name: ".$_REQUEST['Name']." \n";
 $body .= "Email: ".$_REQUEST['Email']." \n";
 # add more fields here if required
 
