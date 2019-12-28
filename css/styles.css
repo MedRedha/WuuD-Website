@@ -145,7 +145,7 @@ a.logo {
 }
 #socialIcons {
   display: block;
-  margin: 20px 0 0; /* float: right; */ /* text-align: right; */
+  margin: 20px 0 0; /* float: center; */ /* text-align: center; */
 }
 #socialIcons ul {
   margin: 0px;
