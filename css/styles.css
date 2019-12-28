@@ -126,8 +126,8 @@ a:hover {
 }
 a.logo {
   color: #fff;
-  float: right;
-}
+  float: center;
+} */
 #header {
   margin-bottom: 62px;
   position: relative;
