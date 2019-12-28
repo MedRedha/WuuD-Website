@@ -3,13 +3,13 @@
 ## CONFIG ##
 
 # LIST EMAIL ADDRESS
-$recipient = "sam.infos@gmail.com";
+$recipient = "redha.dirac@gmail.com";
 
 # SUBJECT (Subscribe/Remove)
 $subject = "Subscribe";
 
 # RESULT PAGE
-$location = "index.html";
+$location = "success.html";
 
 ## FORM VALUES ##
 
