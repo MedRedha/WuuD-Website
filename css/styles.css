@@ -344,7 +344,7 @@ footer {
   bottom: 0px;
 }
 footer span {
-  float: right;
+  float: center;
   margin: 10px;
 }
 .top-wrapper {
