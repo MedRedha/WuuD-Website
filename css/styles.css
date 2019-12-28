@@ -398,15 +398,12 @@ footer span {
     font-size: 34px;
     font-size: 68px;
   }
-  .styled div:nth-child(2) {
-    /* border-right:none; */
-  }
   .styled div span {
     font-size: 14px;
   }
   #Content h2 {
     display: block;
-    margin: 0px 0 29px;
+    /* margin: 0px 0 29px; */
     padding: 0px;
     /* text-align: center; */
     font-size: 21px;
