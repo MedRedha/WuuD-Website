@@ -55,6 +55,15 @@ pre {
   /* filter: blur(1px); */
 }
 
+.right-container {
+  display: flex;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  background-color: brown;
+}
+
 .followus {
   font-size: 18px;
   color: #fff;
