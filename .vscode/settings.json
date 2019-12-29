@@ -2,11 +2,11 @@
   "files.autoSave": "afterDelay",
   "editor.minimap.enabled": false,
   "workbench.colorCustomizations": {
-    "statusBar.background": "#ca5405",
+    "statusBar.background": "#00ffc8",
     "statusBarItem.activeBackground": "#00ffc8",
     "statusBar.noFolderBackground": "#212121",
     "statusBar.debuggingBackground": "#ff5e00",
-    "statusBar.foreground": "#ffffff",
+    "statusBar.foreground": "#000000",
     "titleBar.inactiveForeground": "#383838",
     "titleBar.activeForeground": "#07ca7f",
     "statusBarItem.hoverBackground": "#a7085f"
