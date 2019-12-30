@@ -57,7 +57,8 @@ pre {
 
 .right-container {
   display: flex;
-  position: absolute;
+  position: relative;
+  float: right;
   width: 250px;
   height: 250px;
   text-align: center;
