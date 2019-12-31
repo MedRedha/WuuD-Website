@@ -283,6 +283,7 @@ a.logo {
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
+  font-family: Roboto, cursive;
 }
 
 .callback,
