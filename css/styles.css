@@ -260,15 +260,16 @@ a.logo {
   text-align: center;
 }
 #subscribe input {
-  color: #c3c3c3;
+  color: #ffffff;
   vertical-align: middle;
   width: 260px;
-  border: 1px solid #f1f1f1;
+  animation: myanimation 5s infinite;
   padding: 0 10px;
   height: 50px;
   text-align: left;
   background: transparent;
   font-size: 14px;
+  font-family: Roboto, sans-serif;
 }
 #subscribe input[type="submit"] {
   background: rgb(6, 6, 6);
