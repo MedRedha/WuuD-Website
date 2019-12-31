@@ -5,28 +5,29 @@
   margin: auto;
   height: 66px;
 }
+
 @keyframes myanimation {
   0% {
-    background-color: red;
+    border: 1px dotted red;
   }
   25% {
-    background-color: yellow;
+    border: 1px dotted yellow;
   }
   50% {
-    background-color: green;
+    border: 1px dotted green;
   }
   75% {
-    background-color: brown;
+    border: 1px dotted brown;
   }
   100% {
-    background-color: red;
+    border: 1px dotted red;
   }
 }
+
 .hero-btn .btn {
   background-color: #ff0083;
-  animation: myanimation 5s infinite;
-  border: none;
   outline: none;
+  animation: myanimation 5s infinite;
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
