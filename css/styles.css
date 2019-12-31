@@ -394,11 +394,8 @@ footer span {
     min-width: initial !important;
   }
   #header {
-    /* margin-bottom: 78px; */
     position: relative;
     width: 100%;
-    /* height: 45px; */
-    /* line-height: 35px; */
     z-index: 1;
   }
   .wrapper {
