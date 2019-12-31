@@ -376,6 +376,11 @@ footer span {
   /* background:#fff; */
   float: left;
 }
+::placeholder {
+  text-align: center;
+  color: rgb(44, 44, 44);
+  opacity: 1; /* Firefox */
+}
 #subscribe input[type="submit"]:hover {
   background: #175de2;
   color: #fff;
