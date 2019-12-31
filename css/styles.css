@@ -323,7 +323,7 @@ a.logo {
   margin: 0 1px;
   width: 136px;
   padding: 10px 30px 53px;
-  height: 100px; /* background: rgba(255, 255, 255, 0.18); */
+  height: 100px;
   text-shadow: none;
   vertical-align: middle;
   border: 1px dashed rgba(255, 255, 255, 0.36);
