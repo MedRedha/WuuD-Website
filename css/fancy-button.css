@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400, 600");
+
 .hero-btn {
   position: relative;
   width: 200px;
   margin: auto;
   height: 66px;
 }
-
 @keyframes myanimation {
   0% {
     border: 1px dotted red;
@@ -23,7 +23,6 @@
     border: 1px dotted red;
   }
 }
-
 .hero-btn .btn {
   background-color: #ff0083;
   outline: none;
