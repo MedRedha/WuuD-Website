@@ -13,7 +13,6 @@ body {
 }
 h1 {
   font-size: 68px;
-  /* letter-spacing:-2px; */
   text-align: center;
   padding-top: 30px;
   font-weight: 400;
@@ -54,7 +53,6 @@ pre {
   bottom: 0px;
   /* filter: blur(1px); */
 }
-
 .right-container {
   display: flex;
   position: relative;
@@ -64,17 +62,14 @@ pre {
   text-align: center;
   background-color: brown;
 }
-
 .followus {
   font-size: 18px;
   color: #fff;
   margin: 0 0 45px;
 }
-
 /*---------------------------------------------------
 # - 3.3        social-icon style
 -----------------------------------------------------*/
-
 .social-icon {
   list-style: none;
   padding: 0;
@@ -109,12 +104,10 @@ pre {
 .social-icon li e:hover {
   color: #cf0e5b;
 }
-
 .large-header {
   background-color: black;
   /* background-image: url("../img/demo-1-bg.jpg"); */
 }
-
 code {
   text-transform: uppercase !important;
   color: #eee;
@@ -169,48 +162,6 @@ a.logo {
   padding: 0px;
   text-align: center;
 }
-/* #socialIcons ul li {
-  margin-center: 5px;
-  height: 34px;
-  line-height: 34px;
-  list-style-type: none;
-  display: inline-block;
-} */
-/* #socialIcons ul li a {
-  width: 34px;
-  height: 34px;
-  display: inline-block;
-}
-#socialIcons ul li b {
-  width: 34px;
-  height: 34px;
-  display: inline-block;
-}
-#socialIcons ul li c {
-  width: 34px;
-  height: 34px;
-  display: inline-block;
-}
-#socialIcons ul li d {
-  width: 34px;
-  height: 34px;
-  display: inline-block;
-} */
-/* .twitterIcon,
-.facebookIcon,
-.linkedInIcon,
-.pintrestIcon {
-  background: url("../images/social-icons.png") -74px 0px;
-}
-.facebookIcon {
-  background-position: 10px 0px;
-}
-.linkedInIcon {
-  background-position: -245px 0px;
-}
-.pintrestIcon {
-  background-position: -331px 0px;
-} */
 .tempBy {
   display: block;
   text-align: center;
@@ -285,7 +236,6 @@ a.logo {
   text-transform: uppercase;
   font-family: Roboto, cursive;
 }
-
 .callback,
 .simple {
   font-size: 20px;
