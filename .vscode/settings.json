@@ -1,15 +1,26 @@
 {
   "files.autoSave": "afterDelay",
   "editor.minimap.enabled": false,
+  "workbench.editor.highlightModifiedTabs": true,
+  "editor.cursorBlinking": "smooth",
+  "keyboard.dispatch": "keyCode",
+  "editor.quickSuggestionsDelay": 1,
+  "editor.parameterHints.enabled": true,
   "workbench.colorCustomizations": {
-    "statusBar.background": "#00ffc8",
+    "statusBarItem.hoverBackground": "#a7085f",
     "statusBarItem.activeBackground": "#00ffc8",
     "statusBar.noFolderBackground": "#212121",
     "statusBar.debuggingBackground": "#ff5e00",
-    "statusBar.foreground": "#000000",
-    "titleBar.inactiveForeground": "#383838",
-    "titleBar.activeForeground": "#07ca7f",
-    "statusBarItem.hoverBackground": "#a7085f"
+    "statusBar.foreground": "#ffffff",
+    "titleBar.activeForeground": "#ffffff",
+    "titleBar.inactiveForeground": "#797979",
+    "statusBar.background": "#a7085f",
+    "activityBar.background": "#0F111A",
+    "activityBarBadge.background": "#ff4800",
+    "activityBar.activeFocusBorder": "#ff0000",
+    "activityBar.activeBorder": "#00ff37",
+    "activityBarBadge.foreground": "#000000",
+    "activityBar.activeBackground": "#a7085f"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
@@ -36,16 +47,23 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[dart]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "editor.formatOnSave": true,
+  "editor.fontFamily": "Menlo",
+  "editor.fontLigatures": true,
   "editor.formatOnPaste": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.tslint": true,
-    "source.fixAll.eslint": true,
-    "source.fixAll": true
+    "source.fixAll.eslint": true
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Material Theme Ocean",
-  "editor.fontSize": 13,
-  "window.zoomLevel": 0
+  "sync.quietSync": true,
+  "sync.gist": "d5ceacd6408cbaaddcc654a3ecc22653",
+  "sync.autoUpload": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
