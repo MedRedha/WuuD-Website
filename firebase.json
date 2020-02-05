@@ -1,11 +1,16 @@
 {
   "hosting": {
     "public": "build",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
+    "hosting": {
+      "redirects": [
+        {
+          "source": "/firebase/**",
+          "destination": "https://wuud.net/",
+          "type": 302
+        }
+      ]
+    },
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
       {
         "source": "**",
