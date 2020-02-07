@@ -5,6 +5,9 @@
   "editor.cursorBlinking": "smooth",
   "keyboard.dispatch": "keyCode",
   "editor.quickSuggestionsDelay": 1,
+  "code-runner.showRunIconInEditorTitleMenu": false,
+  "code-runner.showRunCommandInExplorerContextMenu": false,
+  "code-runner.showRunCommandInEditorContextMenu": false,
   "editor.parameterHints.enabled": true,
   "workbench.colorCustomizations": {
     "statusBarItem.hoverBackground": "#a7085f",
@@ -38,8 +41,7 @@
     "tab.activeBackground": "#0F111A",
     "tab.inactiveBackground": "#0F111A",
     "debugToolBar.background": "#0F111A",
-    "menu.background": "#0F111A",
-    "sideBar.foreground": "#ffffff"
+    "menu.background": "#0F111A"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
@@ -91,5 +93,6 @@
     "**/.settings": true,
     "**/.factorypath": true
   },
-  "java.errors.incompleteClasspath.severity": "ignore"
+  "java.errors.incompleteClasspath.severity": "ignore",
+  "workbench.statusBar.visible": true
 }
