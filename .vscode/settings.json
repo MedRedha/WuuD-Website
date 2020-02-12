@@ -5,9 +5,8 @@
   "editor.cursorBlinking": "smooth",
   "keyboard.dispatch": "keyCode",
   "editor.quickSuggestionsDelay": 1,
-  "code-runner.showRunIconInEditorTitleMenu": false,
-  "code-runner.showRunCommandInExplorerContextMenu": false,
-  "code-runner.showRunCommandInEditorContextMenu": false,
+  "code-runner.showRunIconInEditorTitleMenu": true,
+  "code-runner.runInTerminal": true,
   "editor.parameterHints.enabled": true,
   "workbench.colorCustomizations": {
     "statusBarItem.hoverBackground": "#a7085f",
