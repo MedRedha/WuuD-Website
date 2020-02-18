@@ -1,6 +1,9 @@
 {
   "name": "wuud",
-  "version": "0.1.1",
+  "version": "2.1.1",
+  "author": "The WuuD Team",
+  "licence": "MIT",
+  "homepage": "https://wuud.net",
   "private": true,
   "dependencies": {
     "react": "^16.12.0",
