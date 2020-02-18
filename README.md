@@ -1,6 +1,8 @@
 # WuuD-Website
 
-The official WuuD® landing page. Developed with React 16.12.0
+<img alt="NPM" src="https://img.shields.io/npm/l/react?color=black"> <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/TeamWuuD/WuuD-Website?color=red&label=Version"> <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/TeamWuuD/WuuD-Website/react"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/TeamWuuD/WuuD-Website?color=purple"> <img alt="Website" src="https://img.shields.io/website?down_color=red&down_message=maintenance&style=flat-square&up_message=online&url=https%3A%2F%2Fwuud.net"> <img alt="GitHub stars" src="https://img.shields.io/github/stars/TeamWuuD/WuuD-Website?style=social">
+
+The official WuuD® Team landing page. Developed with love and passion!
 
  ## Dev Team
 	
