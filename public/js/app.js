@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /* 
    Author: WuuD
    Version: 1.0.0
