@@ -114,11 +114,11 @@ class Home extends React.Component {
         {/* Testi Component*/}
         <Testi />
 
-        {/* Started Component*/}
-        <Started />
-
         {/* Blog Component*/}
         <Blog />
+
+        {/* Started Component*/}
+        <Started />
 
         {/* Contact Component*/}
         <Contact />
