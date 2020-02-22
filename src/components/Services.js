@@ -2,65 +2,96 @@ import React from 'react';
 
 class Services extends React.Component {
   render() {
-  	return (
-        <section className="section pt-5" id="services">
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-8 offset-lg-2">
-                        <h1 className="section-title text-center">Our Services</h1>
-                        <div className="section-title-border margin-t-20"></div>
-                        <p className="section-subtitle text-muted text-center padding-t-30 font-secondary">We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value for our clients.</p>
-                    </div>
-                </div>
-                <div className="row margin-t-30">
-                    <div className="col-lg-4 margin-t-20">
-                        <div className="services-box text-center hover-effect">
-                            <i className="pe-7s-diamond text-custom"></i>
-                            <h4 className="padding-t-15">Digital Design</h4>
-                            <p className="padding-t-15 text-muted">Some quick example text to build on the card title and make up the bulk of the card's content. Moltin gives you the platform.</p>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 margin-t-20">
-                        <div className="services-box text-center hover-effect">
-                            <i className="pe-7s-display2 text-custom"></i>
-                            <h4 className="padding-t-15">Unlimited Colors</h4>
-                            <p className="padding-t-15 text-muted">Credibly brand standards compliant users without extensible services. Anibh euismod tincidunt ut laoreet.</p>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 margin-t-20">
-                        <div className="services-box text-center hover-effect">
-                            <i className="pe-7s-piggy text-custom"></i>
-                            <h4 className="padding-t-15">Strategy Solutions</h4>
-                            <p className="padding-t-15 text-muted">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean necessary regelialia.</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="row margin-t-30">
-                    <div className="col-lg-4 margin-t-20">
-                        <div className="services-box text-center hover-effect">
-                            <i className="pe-7s-science text-custom"></i>
-                            <h4 className="padding-t-15">Awesome Support</h4>
-                            <p className="padding-t-15 text-muted">It is a paradisematic country, in which roasted parts of sentences fly into your mouth leave for the far World.</p>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 margin-t-20">
-                        <div className="services-box text-center hover-effect">
-                            <i className="pe-7s-news-paper text-custom"></i>
-                            <h4 className="padding-t-15">Truly Multipurpose</h4>
-                            <p className="padding-t-15 text-muted">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 margin-t-20">
-                        <div className="services-box text-center hover-effect">
-                            <i className="pe-7s-plane text-custom"></i>
-                            <h4 className="padding-t-15">Easy to customize</h4>
-                            <p className="padding-t-15 text-muted">Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia.</p>
-                        </div>
-                    </div>
-                </div>
+    return (
+      <section className="section pt-5" id="services">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-8 offset-lg-2">
+              <h1 className="section-title text-center">Our Services</h1>
+              <div className="section-title-border margin-t-20"></div>
+              <p className="section-subtitle text-muted text-center padding-t-30 font-secondary">
+                Got an app idea? Let’s make your dream app a reality together.
+                Since the company’s inception, we’ve had an affair with
+                creativity which compels us to strive harder! The key to our
+                success is dedication and responsibility to deliver world-class
+                mobile apps. Striving for excellence motivates us to deliver
+                exactly what our clients want. Bolstered by a passionate team,
+                we offer concrete web & mobile solutions within the budget and
+                as per the timelines. Give us a chance and we’ll help broaden
+                your horizon to reach new heights!
+              </p>
             </div>
-        </section>
-  	);
+          </div>
+          <div className="row margin-t-30">
+            <div className="col-lg-4 margin-t-20">
+              <div className="services-box text-center hover-effect">
+                <i className="pe-7s-phone text-custom"></i>
+                <h4 className="padding-t-15">Mobile App Development</h4>
+                <p className="padding-t-15 text-muted">
+                  We deliver an exquisite experience with either powerful,
+                  beautiful & cross-platform mobile apps. React Native or
+                  Flutter? We'll choose the best paltform for your business.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-4 margin-t-20">
+              <div className="services-box text-center hover-effect">
+                <i className="pe-7s-monitor text-custom"></i>
+                <h4 className="padding-t-15">Website Development</h4>
+                <p className="padding-t-15 text-muted">
+                  Nothing better than a Web application to boost your idea.
+                  Stability, responsiveness and premium designs are the
+                  trademarks of your Web Development.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-4 margin-t-20">
+              <div className="services-box text-center hover-effect">
+                <i className="pe-7s-graph2 text-custom"></i>
+                <h4 className="padding-t-15">Strategy Solutions</h4>
+                <p className="padding-t-15 text-muted">
+                  From your MVP to deployment, let us write your story with the
+                  best roadmap to success.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="row margin-t-30">
+            <div className="col-lg-4 margin-t-20">
+              <div className="services-box text-center hover-effect">
+                <i className="pe-7s-like text-custom"></i>
+                <h4 className="padding-t-15">Web & Graphics Design</h4>
+                <p className="padding-t-15 text-muted">
+                  Design should win hearts at a glance. Create designs with us
+                  that emphasize your content and the artwork for the maximum
+                  impression.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-4 margin-t-20">
+              <div className="services-box text-center hover-effect">
+                <i className="pe-7s-mouse text-custom"></i>
+                <h4 className="padding-t-15">Digital Marketing</h4>
+                <p className="padding-t-15 text-muted">
+                  Go digital! Increase conversions, bring home more traffic and
+                  generate amazing brand loyalty online.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-4 margin-t-20">
+              <div className="services-box text-center hover-effect">
+                <i className="pe-7s-shopbag text-custom"></i>
+                <h4 className="padding-t-15">E-Commerce App Development </h4>
+                <p className="padding-t-15 text-muted">
+                  Scale your websites and applications to reach more people with
+                  quality e-commerce solutions developed by us.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    );
   }
 }
 export default Services;
