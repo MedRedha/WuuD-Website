@@ -1,5 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
+/* eslint-disable no-script-url */
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 class Footer extends React.Component {
   render() {
