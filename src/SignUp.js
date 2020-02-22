@@ -23,9 +23,9 @@ class SignUp extends React.Component {
                       <div className="card-body">
                         <div className="text-center mt-3">
                           <h3 className="font-weight-bold">
-                            {" "}
+                            {' '}
                             <Link
-                              to="home-one"
+                              to="Home"
                               className="text-dark text-uppercase account-pages-logo"
                             >
                               WuuD
