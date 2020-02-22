@@ -13,6 +13,7 @@ import Contact from './components/Contact';
 import SocialMedia from './components/SocialMedia';
 import Footer from './components/Footer';
 import FooterLinks from './components/FooterLinks';
+import Blog from './components/Blog';
 import Switcher from './components/Switcher';
 import { Link } from 'react-router-dom';
 import Aux from './hoc/Aux_';
@@ -115,6 +116,9 @@ class Home extends React.Component {
 
         {/* Started Component*/}
         <Started />
+
+        {/* Blog Component*/}
+        <Blog />
 
         {/* Contact Component*/}
         <Contact />
