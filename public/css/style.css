@@ -1,35 +1,9 @@
-/*
-* Version : 1.0.0
-* Created by : WuuD
-* File: Main Css 
-*/
-
-/*
-1. BASIC
-2. HELPER
-3. BOOTSTRAP RESET
-4. NAVBAR
-5. HOME
-6. SERVICES
-7. ABOUT US
-8. WEBSITE DESCRIPTION
-9. PRICING BOX
-10. TEAM
-11. OUR PROCESS
-12. PEOPLE SAYS
-13. GET STARTED
-14. BLOG
-15. CONTACT
-16. FOOTER
-17. RESPONSIVE
-*/
-
 /* ==========
    1.BASIC
    ========== */
 
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   overflow-x: hidden !important;
   position: relative;
 }
@@ -52,7 +26,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .h1,
@@ -127,6 +101,11 @@ b {
   padding-top: 30px;
 }
 
+.padding-t-32 {
+  margin-right: -190px;
+  margin-left: 120px;
+}
+
 .padding-b-10 {
   padding-bottom: 10px;
 }
@@ -149,7 +128,7 @@ b {
 }
 
 .bg-overlay {
-  background: linear-gradient(to right, #512da8, #711e72);
+  /* background: linear-gradient(to right, #14074d, #15033f); */
   opacity: 0.9;
   position: absolute;
   height: 100%;
@@ -158,6 +137,7 @@ b {
   bottom: 0;
   left: 0;
   top: 0;
+  z-index: -1;
 }
 
 .bg-overlay-light {
@@ -214,19 +194,19 @@ iframe {
 /*----BACKGROUND COLOR-----*/
 
 .bg-gray {
-  background-color: #f7f7f7;
+  background-color: #1d1f27;
 }
 
 .bg-white {
-  background-color: #fff;
+  background-color: #1d1f27;
 }
 
 .bg-dark {
-  background-color: #393f4f !important;
+  background-color: #1d1f27 !important;
 }
 
 .bg-light {
-  background-color: #fafbfe !important;
+  background-color: transparent !important;
 }
 
 /*=====================
@@ -335,7 +315,7 @@ iframe {
   font-weight: 700;
   letter-spacing: 2px;
   height: auto;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .navbar-custom .navbar-nav li a {
@@ -404,15 +384,40 @@ iframe {
   =====================================*/
 
 .bg-home {
-  background: url("../images/bg-home.jpg");
+  background: url('../images/bg.jpg');
+  /* opacity: 0.7; */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
+  z-index: -1;
+}
+
+.particles {
+  position: absolute;
+  z-index: 9999;
 }
 
 .home-title {
   font-size: 46px;
   line-height: 64px;
+}
+
+.custom-title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  left: 50vh;
+  right: 50vh;
+  top: 50%;
+  width: 700px;
+  position: absolute;
+  height: auto;
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  line-height: 48px;
+  /* background-color: #00e6e6; */
 }
 
 .display-table-cell {
@@ -429,6 +434,15 @@ iframe {
 .home-up {
   z-index: 10;
   position: relative;
+}
+
+.logo {
+  /* important */
+  width: 5.2em;
+  /* margin-top: -20px; */
+  /* height: 50%; */
+  margin-right: 147px;
+  /* background-color: #00e6e6; */
 }
 
 .play-btn {
@@ -464,7 +478,7 @@ iframe {
 
 .home-half {
   padding-bottom: 150px;
-  padding-top: 220px;
+  padding-top: 520px;
 }
 
 .bg-pattern-effect {
@@ -474,7 +488,7 @@ iframe {
   right: 0px;
 }
 
-/*-------Demo 3 Rgistartion form ------*/
+/*-------Demo 3 Registartion form ------*/
 
 .home-registration-form .form-heading {
   margin-bottom: 25px;
@@ -585,6 +599,16 @@ iframe {
   z-index: 5;
 }
 
+.orbit {
+  position: absolute;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background-repeat: repeat no-repeat;
+  background-position: 0 bottom;
+  transform-origin: center bottom;
+}
+
 .wave {
   position: absolute;
   left: 0;
@@ -674,7 +698,7 @@ iframe {
 }
 
 .features-item-list li:before {
-  content: "";
+  content: '';
   border-radius: 50%;
   width: 7px;
   height: 7px;
@@ -700,7 +724,7 @@ iframe {
 ======================================*/
 
 .bg-web-desc {
-  background: url("../images/img-1.jpg");
+  background: url('../images/mobile-application-development.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -746,7 +770,7 @@ iframe {
 ========================================*/
 
 .team-box {
-  border-bottom: 1px solid #ecf0f5;
+  border-bottom: 1px transparent #505050;
 }
 
 .team-name {
@@ -770,7 +794,7 @@ iframe {
 }
 
 .plan-line:before {
-  content: "";
+  content: '';
   border: 1px dashed #e0e0e0;
   position: absolute;
   width: 67%;
@@ -779,7 +803,7 @@ iframe {
 }
 
 .process-left-icon {
-  content: "";
+  content: '';
   position: absolute;
   top: 10px;
   background-color: #000;
@@ -833,7 +857,7 @@ iframe {
 ======================================*/
 
 .bg-get-start {
-  background: url("../images/img-2.jpg");
+  background: url('../images/img-2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1149,7 +1173,7 @@ textarea.form-control {
 
 @media (max-width: 991px) and (min-width: 200px) {
   .plan-line:before {
-    content: "";
+    content: '';
     display: none;
   }
   .process-left-icon-1 i,
@@ -1192,7 +1216,7 @@ textarea.form-control {
 }
 
 /*==================================
-STYLE SWITHER - Demo purpose only
+STYLE SWITHER 
 ==================================*/
 
 #style-switcher div h3 {
@@ -1302,4 +1326,50 @@ ul.pattern .color8 {
   #style-switcher {
     display: none;
   }
+}
+/* _____________________________ */
+/* IMAGE SLIDER STYLING */
+/* _____________________________ */
+
+.slide-container {
+  width: 100%;
+  margin-left: 80px;
+}
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 300px;
+  background-color: #0dba26;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background-color: #ba0d0d;
+  text-align: center;
+}
+
+.each-fade {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 600px;
+  width: 500px;
+}
+
+.each-fade .image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+  /* background-color: #0dba26; */
+}
+
+.each-fade .image-container img {
+  width: 100%;
 }
