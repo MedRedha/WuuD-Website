@@ -10,7 +10,7 @@
         }
       ]
     },
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "ignore": ["**/.*", "**/node_modules/**"],
     "rewrites": [
       {
         "source": "**",
