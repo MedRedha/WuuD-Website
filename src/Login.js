@@ -24,7 +24,7 @@ class Login extends React.Component {
                         <div className="text-center mt-3">
                           <h3 className="font-weight-bold">
                             <Link
-                              to="home-one"
+                              to="Home"
                               className="text-dark text-uppercase account-pages-logo"
                             >
                               WuuD
