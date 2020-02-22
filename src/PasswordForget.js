@@ -1,14 +1,14 @@
-import React from "react";
-import Aux from "./hoc/Aux_";
-import { Link } from "react-router-dom";
-import Switcher from "./components/Switcher";
+import React from 'react';
+import Aux from './hoc/Aux_';
+import { Link } from 'react-router-dom';
+import Switcher from './components/Switcher';
 
 class PasswordForget extends React.Component {
   render() {
     return (
       <Aux>
         <div className="account-home-btn d-none d-sm-block">
-          <Link to="home-one" className="text-white">
+          <Link to="Home" className="text-white">
             <i className="mdi mdi-home h1"></i>
           </Link>
         </div>
