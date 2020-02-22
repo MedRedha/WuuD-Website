@@ -62,10 +62,13 @@ class Navbar extends React.Component {
               <ul className="nav navbar-nav navbar-right">
                 <li>
                   <button
+                    href="#contact"
                     type="button"
-                    className="btn btn-custom navbar-btn btn-rounded waves-effect waves-light"
+                    className="btn btn-custom navbar-btn btn-rounded waves-effect waves-light nav-link"
                   >
-                    Try it Free
+                    <a style={{ color: '#ffffff' }} href="#contact">
+                      Jump in
+                    </a>
                   </button>
                 </li>
               </ul>
