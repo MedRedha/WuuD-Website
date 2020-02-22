@@ -4,8 +4,8 @@
 
 The official WuuD® Team landing page. Developed with love and passion!
 
- ## Dev Team
-	
+## Dev Team
+
   <table>
 		<tbody>
 			<tr>
