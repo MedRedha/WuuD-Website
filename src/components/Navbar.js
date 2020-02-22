@@ -1,12 +1,13 @@
-import React from "react";
+import React from 'react';
 
 class Navbar extends React.Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark">
         <div className="container">
-          <a className="navbar-brand logo text-uppercase" href="/home-one">
-            WuuD
+          <a href="/home">
+            <img className="logo" src="images/favicon.ico" alt="logo"></img>
+            <br></br>
           </a>
           <button
             className="navbar-toggler"
