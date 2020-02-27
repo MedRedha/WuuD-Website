@@ -25,7 +25,7 @@
     "styled-components": "^5.0.1",
     "three": "^0.113.2",
     "typewriter-effect": "^2.12.2",
-    "use-dencrypt-effect": "^1.0.1",
+    "use-dencrypt-effect": "^1.0.2",
     "vanta": "^0.5.10"
   },
   "scripts": {
