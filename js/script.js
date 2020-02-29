@@ -57,7 +57,7 @@ class Particle {
       }
     });
 
-    $('body').append(this.item);
+    $('div1').append(this.item);
     return {
       width: this.item.width(),
       height: this.item.height()
