@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 class Particle {
   constructor(svg, coordinates, friction) {
     this.svg = svg;
