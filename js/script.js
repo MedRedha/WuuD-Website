@@ -88,10 +88,10 @@ const data = [point, rhombus, pentahedron, circle, x];
 let isPaused = false;
 window.onblur = function() {
   isPaused = true;
-}.bind(this);
+};
 window.onfocus = function() {
   isPaused = false;
-}.bind(this);
+};
 
 let particles = [];
 
