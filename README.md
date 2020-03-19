@@ -17,7 +17,7 @@
 <br>
 
 <p align="center">
-Developed with :heart: and passion!
+ <i>Developed with :heart: and passion!</i>
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@ Developed with :heart: and passion!
 </p>
 
 <p align="center">
-## The Official WuuD Team Landing Page.
+ <h1 align="center">The Official WuuD Team Landing Page.</h1>
 </p>
 
 ## Build & Run
