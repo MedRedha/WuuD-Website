@@ -24,7 +24,9 @@ Developed with :heart: and passion!
     <img src="https://www.linkapi.solutions/uploads/2019/05/Developer-Experience.gif">
 </p>
 
+<p align="center">
 ## The Official WuuD Team Landing Page.
+</p>
 
 ## Build & Run
 
