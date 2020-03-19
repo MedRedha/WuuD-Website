@@ -20,7 +20,7 @@ Developed with :heart: and passion!
 <br>
 
 <p align="center">
-<img src="https://github.githubassets.com/images/modules/site/sponsors/confetti-2.svg">
+    <img width="100%" height="110" src="https://media0.giphy.com/media/9u2VQAwIgpMZKT6qTV/source.gif">
 </p>
 
 ## The Official WuuD Team Landing Page.
