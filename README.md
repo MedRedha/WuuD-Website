@@ -46,8 +46,7 @@ $ firebase deployment
 
 ## Dev Team
 
-<html>
-  <body>
+<p align="center">
     <table align="center" width="500" border="0" cellpadding="5">
       <tr>
         <td align="center" valign="center">
@@ -99,8 +98,7 @@ $ firebase deployment
         </td>
       </tr>
     </table>
-  </body>
-</html>
+</p>
 
 
 ## License
