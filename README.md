@@ -1,7 +1,4 @@
 <p align="center">
-Developed with :heart: and passion!
-</p>
-<p align="center">
 	<a href="https://wuud.net">
 		<img width="320" height="348" src="https://github.com/TeamWuuD/WuuD-Website/blob/master/favicon.ico?raw=true" alt="wuud">
 	</a>
@@ -20,7 +17,11 @@ Developed with :heart: and passion!
 <br>
 
 <p align="center">
-    <img width="100%" height="110" src="https://media0.giphy.com/media/9u2VQAwIgpMZKT6qTV/source.gif">
+Developed with :heart: and passion!
+</p>
+
+<p align="center">
+    <img src="https://www.linkapi.solutions/uploads/2019/05/Developer-Experience.gif">
 </p>
 
 ## The Official WuuD Team Landing Page.
