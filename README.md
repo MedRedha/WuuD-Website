@@ -8,7 +8,7 @@
 		<img src="https://img.shields.io/travis/carloscuesta/gitmoji/master?style=flat-square"
 			 alt="Build Status">
 	</a>
-	<a href="https://gitmoji.carloscuesta.me">
+	<a>
 		<img alt="NPM" src="https://img.shields.io/npm/l/react?color=black">
 		<img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/MedRedha/CoronApp?color=red&label=Version">
 		<img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/MedRedha/CoronApp/react">
@@ -20,7 +20,7 @@
 <br>
 <br>
 
-##The official WuuD Team landing page. 
+## The official WuuD Team landing page. 
 Developed with :heart: and passion! :ok_hand:
 
 ## Build & Run
