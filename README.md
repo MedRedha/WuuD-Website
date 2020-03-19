@@ -19,6 +19,10 @@ Developed with :heart: and passion!
 <br>
 <br>
 
+<p align="center">
+<img src="https://github.githubassets.com/images/modules/site/sponsors/confetti-2.svg">
+</p>
+
 ## The Official WuuD Team Landing Page.
 
 ## Build & Run
@@ -39,7 +43,7 @@ $ firebase deployment
 
 ## Dev Team
 
-<table width="500" border="0" cellpadding="5">
+<table align="center" width="500" border="0" cellpadding="5">
 
 <tr>
 
