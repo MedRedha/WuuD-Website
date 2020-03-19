@@ -2,6 +2,7 @@
 	<a href="https://wuud.net">
 		<img width="320" height="348" src="https://github.com/TeamWuuD/WuuD-Website/blob/master/favicon.ico?raw=true" alt="wuud">
 	</a>
+	Developed with :heart: and passion! :ok_hand:
 </p>
 <p align="center">
 	<a href="https://travis-ci.org/carloscuesta/gitmoji">
@@ -20,8 +21,7 @@
 <br>
 <br>
 
-## The official WuuD Team landing page. 
-Developed with :heart: and passion! :ok_hand:
+## The official WuuD Team landing page.
 
 ## Build & Run
 
