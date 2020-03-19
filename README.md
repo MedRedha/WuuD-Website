@@ -81,6 +81,8 @@ $ firebase deployment
 <i>Mobile Developer</i>
 </td>
 
+</tr>
+
 </table>
 
 ## License
