@@ -63,3 +63,11 @@ node_modules/
 
 # dotenv environment variables file
 .env
+.idea
+.idea/.gitignore
+.idea/WuuD-Website.iml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/watcherTasks.xml
