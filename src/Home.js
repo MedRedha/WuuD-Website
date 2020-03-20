@@ -47,7 +47,7 @@ class Home extends React.Component {
           />
         </div>
         <section className="section bg-home home-half" id="home">
-          <div className="bg-overlay"></div>
+          <div className="bg-overlay"/>
           <div className="custom-title">
             <Typing loop="true" speed={10}>
               <h1 className="home-title">Just imagine it...</h1>
@@ -72,7 +72,7 @@ class Home extends React.Component {
                         to="http://vimeo.com/99025203"
                         className="play-btn video-play-icon"
                       >
-                        <i className="mdi mdi-play text-center"></i>
+                        <i className="mdi mdi-play text-center"/>
                       </Link>
                     </p>
                   </div>
@@ -82,13 +82,13 @@ class Home extends React.Component {
           </div>
           <div className="wave-effect wave-anim">
             <div className="waves-shape shape-one">
-              <div className="wave wave-one" style={bkg1}></div>
+              <div className="wave wave-one" style={bkg1}/>
             </div>
             <div className="waves-shape shape-two">
-              <div className="wave wave-two" style={bkg2}></div>
+              <div className="wave wave-two" style={bkg2}/>
             </div>
             <div className="waves-shape shape-three">
-              <div className="wave wave-three" style={bkg3}></div>
+              <div className="wave wave-three" style={bkg3}/>
             </div>
           </div>
         </section>

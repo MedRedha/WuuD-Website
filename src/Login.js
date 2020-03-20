@@ -1,7 +1,7 @@
-import React from 'react';
-import Aux from './hoc/Aux_';
-import { Link } from 'react-router-dom';
-import Switcher from './components/Switcher';
+import React from "react";
+import Aux from "./hoc/Aux_";
+import { Link } from "react-router-dom";
+import Switcher from "./components/Switcher";
 
 class Login extends React.Component {
   render() {
@@ -9,7 +9,7 @@ class Login extends React.Component {
       <Aux>
         <div className="account-home-btn d-none d-sm-block">
           <Link to="Home" className="text-white">
-            <i className="mdi mdi-home h1"></i>
+            <i className="mdi mdi-home h1" />
           </Link>
         </div>
 
@@ -81,7 +81,7 @@ class Login extends React.Component {
 
                             <div className="mt-4 mb-0 text-center">
                               <Link to="forgot-password" className="text-dark">
-                                <i className="mdi mdi-lock"></i> Forgot your
+                                <i className="mdi mdi-lock" /> Forgot your
                                 password?
                               </Link>
                             </div>

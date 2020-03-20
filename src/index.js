@@ -1,16 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Home from './Home';
-import Login from './Login';
-import SignUp from './SignUp';
-import PasswordForget from './PasswordForget';
-import registerServiceWorker from './registerServiceWorker';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+import Home from "./Home";
+import Login from "./Login";
+import SignUp from "./SignUp";
+import PasswordForget from "./PasswordForget";
+import registerServiceWorker from "./registerServiceWorker";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 class Root extends React.Component {
   render() {
     return (
-      <BrowserRouter basename={'/'}>
+      <BrowserRouter basename={"/"}>
         <Switch>
           <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home} />
           <Route
@@ -30,5 +30,5 @@ class Root extends React.Component {
   }
 }
 
-ReactDOM.render(<Root />, document.getElementById('root'));
+ReactDOM.render(<Root />, document.getElementById("root"));
 registerServiceWorker();

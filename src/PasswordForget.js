@@ -1,7 +1,7 @@
-import React from 'react';
-import Aux from './hoc/Aux_';
-import { Link } from 'react-router-dom';
-import Switcher from './components/Switcher';
+import React from "react";
+import Aux from "./hoc/Aux_";
+import { Link } from "react-router-dom";
+import Switcher from "./components/Switcher";
 
 class PasswordForget extends React.Component {
   render() {
@@ -9,7 +9,7 @@ class PasswordForget extends React.Component {
       <Aux>
         <div className="account-home-btn d-none d-sm-block">
           <Link to="Home" className="text-white">
-            <i className="mdi mdi-home h1"></i>
+            <i className="mdi mdi-home h1" />
           </Link>
         </div>
 
@@ -23,7 +23,7 @@ class PasswordForget extends React.Component {
                       <div className="card-body">
                         <div className="text-center mt-3">
                           <h3 className="font-weight-bold">
-                            {' '}
+                            {" "}
                             <Link
                               to="Home"
                               className="text-dark text-uppercase account-pages-logo"
